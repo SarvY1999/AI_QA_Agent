@@ -1,0 +1,23 @@
+{
+  "name": "ai_qa_agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Sarvesh Yadav",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "heal": "tsx heal.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.92.0",
+    "@playwright/cli": "^0.1.11",
+    "dotenv": "^17.4.2"
+  }
+}
